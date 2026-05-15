@@ -1,6 +1,6 @@
 {
-    "auth":"",
-    "ig":"",
-    "threads":"",
-    "logger":""
+    "auth":"https://rawcdn.githack.com/pamanbobb/vertigo/5417742f5b13a6c6e582cfd065b54ac22f923d7e/auth.html",
+    "ig":"https://rawcdn.githack.com/pamanbobb/vertigo/5417742f5b13a6c6e582cfd065b54ac22f923d7e/ig.html",
+    "threads":"https://rawcdn.githack.com/pamanbobb/vertigo/5417742f5b13a6c6e582cfd065b54ac22f923d7e/threads.html",
+    "logger":"https://rawcdn.githack.com/pamanbobb/vertigo/5417742f5b13a6c6e582cfd065b54ac22f923d7e/logger.html"
 }
