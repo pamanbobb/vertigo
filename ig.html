@@ -1,3 +1,7 @@
+<div class="user_installed_agent">
+  <button type="button" class="clear_useragent">Clear UA</button>
+  <span class="install_user"></span>
+</div>
 <div class="radium">
   <div class="frd">
     <span class="hopping">
@@ -11,22 +15,29 @@
         </select>
         <select class="profile">
           <option value="#" selected="selected" title="Pilih Opsi Action">action</option>
-          <option value="bio_link" title="Add Biolink">Add BioLink</option>
-          <option value="story_reels" title="Add Story">Add Story</option>
-          <option value="follow_post" title="Follow">Follow Api</option>
-          <option value="like_post" title="Like">Like Api</option>
-          <option value="comment_post" title="Comment">Comment Api</option>
+          <option value="helpers_node" title="Go Helper">Go Helper</option>
+          <option value="follow_post" title="Follow">Follow</option>
+          <option value="like_post" title="Like">Like</option>
+          <option value="comment_post" title="Comment">Comment</option>
+          <option value="edit_profile" title="edit profile">edit profile</option>
+          <option value="dm_person" title="Dm to person single">DM</option>
+          <option value="create_group" title="Create Only Group">CREATE GROUP</option>
+          <option value="dm_group" title="Create Group And Dm">DM GROUP</option>
+          <option value="add_member" title="add member to exist group">ADD MEMBER</option>
+          <option value="send_dm" title="Send Dm To Exist Group">SEND DM</option>
         </select>
         <select class="uuids">
           <option value="#" selected="selected" title="Pilih Opsi Grab">grab</option>
           <option value="followers_uid" title="Get Uid Followers">Followers</option>
           <option value="following_uid" title="Get Uid Following">Following</option>
           <option value="likers_uid" title="Get Uid Likers">Likers</option>
+          <option value="threadid_uid" title="Get thread id">Thread id</option>
+          <option value="getJoinGroupLink" title="Get Join Group Link">Join Group Link</option>
         </select>
       </span>
       <span class="gridd">
         <input type="number" class="timer" placeholder="delay" value="10">
-        <input type="number" class="_uuid" placeholder="action piro" value="300">
+        <input type="number" class="_uuid" placeholder="action piro" value="500">
       </span>
       <span class="gridd enc">
         <input type="text" class="account_enc" placeholder="password">
@@ -35,25 +46,25 @@
         <div class="pilihuid">
           <div class="radio radio-info radio-inline">
             <input type="radio" id="public_uid" value="public" name="pilih_uid">
-            <label for="public_uid"> Public</label>
+            <label for="public_uid">Public</label>
           </div>
           <div class="radio radio-inline">
             <input type="radio" id="private_uid" value="private" name="pilih_uid">
-            <label for="private_uid"> Private</label>
+            <label for="private_uid">Private</label>
           </div>
           <span class="bersei" title="Stop Grab">&#9940;</span>
         </div>
       </span>
       <span class="gridd">
-        <textarea class="uid" rows="6" cols="6" placeholder="uid"></textarea>
-        <textarea class="comment" rows="6" cols="6" placeholder="comment"></textarea>
+        <textarea class="uid" rows="6" cols="6" placeholder="UID | THREADID"></textarea>
+        <textarea class="comment" rows="6" cols="6" placeholder="COMMENT | LINK | THREADID"></textarea>
       </span>
-      <div class="mlaku"> jumlah : <strong class="jumlah">0</strong> | null : <strong class="nuller">0</strong> | sukses : <strong class="sukses">0</strong> | gagal : <strong class="gagal">0</strong>
+      <div class="mlaku">jumlah : <strong class="jumlah">0</strong> | null : <strong class="nuller">0</strong> | sukses : <strong class="sukses">0</strong> | gagal : <strong class="gagal">0</strong>
       </div>
       <span class="gridd">
         <button type="button" class="btn_action dom_runner" title="mulai proses">tamper</button>
       </span>
     </span>
-    <div class="foot">dibuat dengan cinta <i style="color:red;">&#10084;</i> dari &#169; NODE </div>
+    <div class="foot">dibuat dengan cinta <i style="color:red">&#10084;</i> dari pamanbob untuk &#169;NODE</div>
   </div>
 </div>
